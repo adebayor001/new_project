@@ -1,0 +1,9 @@
+body{
+    background-image: url(./image/unsplash_a-xbE4Tye5c.png);
+}
+.input {
+    background:none ;
+}
+.input:focus{
+    background-color: white;
+}

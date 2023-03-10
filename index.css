@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url(./17973908.jpg); */
+    /* padding-inline: 9px; */
+    
+
+
+}
+/* :root{ */
+    /* --bg-mobile:none; */
+/* } */
+
+/* @media screen and (max-width: px){ */
+    /* .bg2 { */
+        /* background-color: var(--bg-mobile); */
+    /* } */
+    
+/* } */
+.img{
+    background-image: url(./image/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.a:hover{
+    color: blue;
+}
+.hero{
+    justify-content: space-between;
+}
+
+.bg2{
+    background-image: url(./image/top-view-truck-boxes.jpg);
+    /* background-image: url(./image/—Pngtree—business\ background\ banner\ business\ website_306168.jpg); */
+    background-size: contain;
+}
+
+.img2 {
+    background-image: url(./image/map.png);
+    background-size:400px ;
+    background-repeat: no-repeat;
+    background-position: center;
+}

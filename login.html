@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="flex justify-center mt-12">
+    <div
+      class="w-96 h-[500px] border-red-500 border-dotted border-2 rounded-lg text-white py-2 mx-">
+      <div class="w-full flex justify-center">
+        <h1 class="text-3xl font-semibold tracking-widest opacity-60">
+          WELCOME
+        </h1>
+      </div>
+      <form action="">
+        <div class="w-full my-8">
+          <div class="w-full flex justify-center">
+            <input
+              type="text"
+              placeholder="email / username"
+              class="flex justify-center text-black h-10 rounded-lg border-solid border-gray-50 border-2 input p-2 mb-8" />
+          </div>
+          <div class="w-full flex justify-center">
+            <input
+              type="password"
+              placeholder="password"
+              class="flex justify-center text-black h-10 rounded-lg border-solid border-gray-50 border-2 input p-2 mb-8" />
+          </div>
+          <div class="flex w-full justify-center">
+            <a href="//" class="text-white bg-red-500 w-20 px-4 py-2 rounded-lg"
+              >Login</a
+            >
+          </div>
+          <div class="w-full flex text-white justify-center my-4">
+            <h1>
+              Don’t have account?
+              <span class="text-red-500"><a href="//">Register</a></span>
+            </h1>
+          </div>
+          <div class="w-full flex justify-center">
+            <a
+              href="https://accounts.google.com/v3/signin/identifier?dsh=S-787602819%3A1678413461288812&authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession"
+              class="bg-white px-12 py-2 rounded-lg"
+              ><img src="./image/logos_google-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </form>
+      <marquee behavior="20" direction="right" class="font-bold text-2xl opacity-60">CONNECT LOGISTICS</marquee>
+    </div>
+  </body>
+</html>
